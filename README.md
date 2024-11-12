@@ -11,3 +11,10 @@ When I right-click on the SVG image above and click "Copy URL", I get this URL o
 ```
 https://private-user-images.githubusercontent.com/134325062/385186458-e09f84ef-eaf4-46a4-97ab-6b11dcd03a3a.svg?jwt=eyJ...7h0
 ```
+
+---
+
+Here's a reference to the `workflows_10-29-2024_MAGS workflow.svg` image file residing in this repository:
+
+![workflows_10-29-2024_MAGS workflow](./workflows_10-29-2024_MAGS%20workflow.svg)
+
