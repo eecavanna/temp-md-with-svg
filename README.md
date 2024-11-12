@@ -1,20 +1,24 @@
 # temp-md-with-svg
 
-This is an SVG image. Its URL is `https://github.com/user-attachments/assets/e09f84ef-eaf4-46a4-97ab-6b11dcd03a3a` (it doesn't end with `.svg`, even though the name of the file I uploaded was `workflows_10-29-2024_MAGS workflow.svg`).
+## Introduction
 
-![workflows_10-29-2024_MAGS workflow](https://github.com/user-attachments/assets/e09f84ef-eaf4-46a4-97ab-6b11dcd03a3a)
+This repo contains some demos of [how GitHub displays SVG files in Markdown/reStructuredText documents](https://github.blog/changelog/2022-01-21-allow-to-upload-svg-files-to-markdown).
 
-This is some text following the SVG image.
+This repo contains three files:
 
-When I right-click on the SVG image above and click "Copy URL", I get this URL on my clipboard (token redacted):
+- `README.md`: The Markdown version of the demo.
+- `index.rst`: The reStructureText version of the demo.
+- `workflows_10-29-2024_MAGS workflow.svg`: The SVG image.
 
-```
-https://private-user-images.githubusercontent.com/134325062/385186458-e09f84ef-eaf4-46a4-97ab-6b11dcd03a3a.svg?jwt=eyJ...7h0
-```
-
----
+## Demo
 
 Here's a reference to the `workflows_10-29-2024_MAGS workflow.svg` image file residing in this repository:
 
-![workflows_10-29-2024_MAGS workflow](./workflows_10-29-2024_MAGS%20workflow.svg)
+![workflows_10-29-2024_MAGS workflow](workflows_10-29-2024_MAGS%20workflow.svg)
 
+The raw reference is:
+
+```md
+![workflows_10-29-2024_MAGS workflow](workflows_10-29-2024_MAGS%20workflow.svg)
+```
+> Note the `%20` (as opposed to the space) in the filename.
